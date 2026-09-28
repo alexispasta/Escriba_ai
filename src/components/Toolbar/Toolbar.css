@@ -1,0 +1,32 @@
+.toolbar {
+  background: white;
+
+  border: 1px solid #ddd;
+  border-bottom: none;
+
+  padding: 10px;
+
+  display: flex;
+  gap: 6px;
+
+  border-radius: 8px 8px 0 0;
+}
+
+.toolbar button {
+  border: 1px solid #ddd;
+  background: white;
+
+  padding: 7px 12px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #f1f1f1;
+}
+
+.toolbar button.active {
+  background: #e5e7eb;
+}
